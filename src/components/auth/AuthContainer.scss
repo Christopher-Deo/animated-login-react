@@ -63,3 +63,35 @@ form {
 form a {
     text-decoration: none;
 }
+
+.reset{
+    position: relative;
+
+}
+
+.close{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    height: 3rem;
+    width: 3rem;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: red; 
+     }
+
+     //setting up media query for responsive design
+     @media screen and (max-width: 500px) {
+        .img-container{
+        display: none
+        }
+        .form-container{
+            width: 100%;
+        }
+     }
+
+     
