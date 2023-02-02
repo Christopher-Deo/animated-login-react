@@ -7,11 +7,11 @@ const Login = () => {
   return (
     <div className='main-container --flex-center'>
       <div className='img-container'>
-        <img src={loginImg} className='login-img' alt='image for login screen' />
+        <img src={loginImg} className='login-img' alt='login screen' />
       </div>
       <div className='form-container --bg-grey'>
         <form className='--form-control'>
-          <h2 className='--color-danger'>Login</h2>
+          <h2 className='--color-danger --text-center'>Login</h2>
           <input type='text' className="--width-100"
             placeholder="Username" />
           <input type="text" className="--width-100"
